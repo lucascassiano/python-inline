@@ -1,0 +1,36 @@
+{
+  "name": "python-inline",
+  "version": "1.1.0",
+  "description": "NPM package to run inline python code inside a JS script (using python-shell)",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "babel-node ./test/index.js",
+    "build": "babel ./index.js -d ./dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucascassiano/python-inline.git"
+  },
+  "keywords": [
+    "python",
+    "js",
+    "inline"
+  ],
+  "author": "lucascassiano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucascassiano/python-inline/issues"
+  },
+  "homepage": "https://github.com/lucascassiano/python-inline#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "python-shell": "^1.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "nodemon": "^1.18.4"
+  }
+}
