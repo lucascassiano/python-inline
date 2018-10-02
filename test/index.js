@@ -5,7 +5,8 @@ let a = Python(
 );
 */
 
-compile`import cv2 
+let a = compile`import cv2 
+x = 0
 print("hello")`;
 
-//console.log(a);*/
+console.log(a);

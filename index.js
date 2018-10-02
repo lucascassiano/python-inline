@@ -27,7 +27,7 @@ function compiler() {
 
         PythonShell.runString(obj, options, function (err, results) {
             if (err) throw err;
-            console.log(results);
+            return results; //console.log(results);
         });
 
     }
